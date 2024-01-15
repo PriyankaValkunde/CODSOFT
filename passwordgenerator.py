@@ -2,8 +2,6 @@
 import string
 import random
 
-
-# store all characters in lists 
 s1 = list(string.ascii_lowercase)
 s2 = list(string.ascii_uppercase)
 s3 = list(string.digits)
@@ -14,7 +12,7 @@ s4 = list(string.punctuation)
 user_input = input("How many characters do you want in your password? ")
 
 
-# check this input is it number? is it more than 8?
+# check this input is it number? is it more than 0?
 while True:
 
 	try:
